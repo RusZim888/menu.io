@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bella Pasta Menu</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#c0392b;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:30px;
+}
+
+.section h2{
+margin-bottom:20px;
+border-left:5px solid #c0392b;
+padding-left:10px;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card-content{
+padding:15px;
+}
+
+.price{
+color:#c0392b;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Bella Pasta</h1>
+<p>Итальянская кухня</p>
+</header>
+
+<!-- ЗАВТРАКИ -->
+<div class="section">
+<h2>Завтраки</h2>
+
+<div class="menu">
+
+<div class="card">
+<!-- картинка омлета -->
+<img src="images/blin.jpg">
+<div class="card-content">
+<h3>Омлет с сыром</h3>
+<p>Яйца, моцарелла, зелень</p>
+<p class="price">120 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- картинка панкейков -->
+<img src="images/pankeyk.jpg">
+<div class="card-content">
+<h3>Панкейки</h3>
+<p>Блинчики с сиропом</p>
+<p class="price">140 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- авокадо тост -->
+<img src="images/avocado.jpg">
+<div class="card-content">
+<h3>Авокадо тост</h3>
+<p>Хлеб, авокадо, яйцо пашот</p>
+<p class="price">160 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- СУПЫ -->
+<div class="section">
+<h2>Супы</h2>
+
+<div class="menu">
+
+<div class="card">
+<!-- томатный суп -->
+<img src="images/tomato.jpg">
+<div class="card-content">
+<h3>Томатный суп</h3>
+<p>С базиликом</p>
+<p class="price">110 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- куриный суп -->
+<img src="images/soup.jpg">
+<div class="card-content">
+<h3>Куриный суп</h3>
+<p>Домашний суп с лапшой</p>
+<p class="price">120 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ПАСТА -->
+<div class="section">
+<h2>Паста</h2>
+
+<div class="menu">
+
+<div class="card">
+<!-- паста карбонара -->
+<img src="images/pastak.jpg">
+<div class="card-content">
+<h3>Карбонара</h3>
+<p>Бекон, сливочный соус</p>
+<p class="price">220 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- паста болоньезе -->
+<img src="images/bolon.jpg">
+<div class="card-content">
+<h3>Болоньезе</h3>
+<p>Томатный соус, говядина</p>
+<p class="price">230 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ПИЦЦА -->
+<div class="section">
+<h2>Пицца</h2>
+
+<div class="menu">
+
+<div class="card">
+<!-- маргарита -->
+<img src="images/margherita.jpg">
+<div class="card-content">
+<h3>Маргарита</h3>
+<p>Томатный соус, моцарелла</p>
+<p class="price">190 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- пепперони -->
+<img src="images/pipperoni.jpg">
+<div class="card-content">
+<h3>Пепперони</h3>
+<p>Колбаса пепперони</p>
+<p class="price">210 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ОСНОВНЫЕ БЛЮДА -->
+<div class="section">
+<h2>Основные блюда</h2>
+
+<div class="menu">
+
+<div class="card">
+<!-- стейк -->
+<img src="images/steak.jpg">
+<div class="card-content">
+<h3>Стейк с картофелем</h3>
+<p>Говядина, картофель</p>
+<p class="price">340 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- курица гриль -->
+<img src="images/chicken.jpg">
+<div class="card-content">
+<h3>Куриное филе гриль</h3>
+<p>Курица гриль с овощами</p>
+<p class="price">240 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- КОФЕ -->
+<div class="section">
+<h2>Кофейные напитки</h2>
+
+<div class="menu">
+
+<div class="card">
+<!-- эспрессо -->
+<img src="images/espresso.jpg">
+<div class="card-content">
+<h3>Эспрессо</h3>
+<p>Классический кофе</p>
+<p class="price">60 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- капучино -->
+<img src="images/cappuccino.jpg">
+<div class="card-content">
+<h3>Капучино</h3>
+<p>Кофе с молочной пенкой</p>
+<p class="price">90 грн</p>
+</div>
+</div>
+
+<div class="card">
+<!-- латте -->
+<img src="images/latte.jpg">
+<div class="card-content">
+<h3>Латте</h3>
+<p>Мягкий кофе с молоком</p>
+<p class="price">95 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- АЛКОГОЛЬ -->
+<div class="section">
+<h2>Алкогольные напитки</h2>
+
+<div class="menu">
+
+<div class="card">
+<img src="images/redw.jpg">
+<div class="card-content">
+<h3>Красное вино</h3>
+<p>Бокал сухого вина</p>
+<p class="price">140 грн</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/winew.jpg">
+<div class="card-content">
+<h3>Белое вино</h3>
+<p>Освежающее белое вино</p>
+<p class="price">140 грн</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/beer.jpg">
+<div class="card-content">
+<h3>Пиво</h3>
+<p>Светлое разливное</p>
+<p class="price">110 грн</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/mojito.jpg">
+<div class="card-content">
+<h3>Mojito</h3>
+<p>Ром, лайм, мята</p>
+<p class="price">170 грн</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/margarita.jpg">
+<div class="card-content">
+<h3>Margarita</h3>
+<p>Текила, лайм</p>
+<p class="price">180 грн</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/pina.jpg">
+<div class="card-content">
+<h3>Pina Colada</h3>
+<p>Ром, кокос, ананас</p>
+<p class="price">190 грн</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
+
+</div>
+
+<div class="qr">
+
+<h2>QR меню</h2>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://examplemenu.com">
+
+<p>Отсканируйте QR код чтобы открыть меню</p>
+
+</div>
